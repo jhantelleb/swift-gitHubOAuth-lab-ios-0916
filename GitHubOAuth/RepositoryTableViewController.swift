@@ -24,7 +24,6 @@ class RepositoryTableViewController: UITableViewController {
             (error == nil) ? self.tableView.reloadData() : print("\(error?.localizedDescription)")
             
         }
-
     }
 
     // MARK: Table view data source
@@ -51,7 +50,6 @@ class RepositoryTableViewController: UITableViewController {
         } else {
             print("\(error?.localizedDescription)")
         }
-
     }
 
 }

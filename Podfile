@@ -7,6 +7,7 @@ target 'GitHubOAuth' do
 
   # Pods for GitHubOAuth
   pod 'Locksmith'
+  pod 'Alamofire'
 
 end
 
@@ -15,6 +16,6 @@ post_install do |installer|
         target.build_configurations.each do |config|
             config.build_settings['SWIFT_VERSION'] = '3.0'
         end
- 
+
    end
 end
